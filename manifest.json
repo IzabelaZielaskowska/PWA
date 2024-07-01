@@ -3,7 +3,7 @@
     "background_color": "#35f6f3",
     "display": "browser",
     "scope": "/",
-    "start_url" : "",
+    "start_url" : "/PWA/",
     "name": "Blog o kotach",
     "short_name": "CatAPP",
     "description": "Najlepsze ciekawostki o kotach",
