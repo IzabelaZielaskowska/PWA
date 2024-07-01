@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(190, 115, 3, 0.281);
+}
+
+header {
+    background-image: url('https://kochamykoty.pl/wp-content/uploads/2022/10/ciekawostki-o-kotach-1024x576.jpg');
+    background-size: cover;
+    background-position: 65% center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    margin-bottom: 10px;
+}
+
+h1 {
+    background-color: rgba(255, 255, 255, 0.18);
+    height: 80vh;
+    text-align: center;
+    line-height: 50vh;
+    font-size: 60px;
+}
+
+footer {
+    padding: 40px;
+    background-color: rgb(83, 52, 9);
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+p {
+    padding: 20px;
+    line-height: 1.3;
+    text-align: justify;
+}
+
+.img1 {
+    background-image: url('https://lh3.googleusercontent.com/proxy/B4keieRevPXe3-EhoNtD2Hg2wnYAuElYaQFhvhbeaRkEijNK4rk8_9K-yZRQDgo6dSsPh9g5lQdTCwYx2udncta9UPdYHQWO5acp1zYHDxoVFzLJO9PCUBeZwrZ1TydDCyHOQiWae8g8_uK0SqQE');
+    background-size: cover;
+    background-position: 65% center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+}
+
+.img2 {
+    background-image: url('https://d-art.ppstatic.pl/kadry/k/r/1/90/0b/5e4a6e97a449b_o_medium.jpg');
+    background-size: cover;
+    background-position: 65% center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+}
+
+.img3 {
+    background-image: url('https://fera.pl/images/companies/1/slawny-kot.png?1671127085381');
+    background-size: cover;
+    background-position: 65% center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+}
+
+.img4 {
+    background-image: url('https://www.whiskas.pl/sites/g/files/fnmzdf4701/files/2022-12/13-ciekawostek-o-kotach-o-ktorych-nie-miales-pojecia-min_1612276901079.jpeg');
+    background-size: cover;
+    background-position: 65% center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+}
+
+.map{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    main{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .cat {
+        width: 50%;
+    }
+
+    .map {
+        text-align: center;
+        align-items: center;
+    }
+}

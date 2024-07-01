@@ -1,0 +1,32 @@
+{
+    "theme_color": "#97bfd2",
+    "background_color": "#35f6f3",
+    "display": "browser",
+    "scope": "/",
+    "start_url" : "",
+    "name": "Blog o kotach",
+    "short_name": "CatAPP",
+    "description": "Najlepsze ciekawostki o kotach",
+    "icons": [
+        {
+            "src": "./manifest/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "./manifest/icon-150x150.png",
+            "sizes": "150x150",
+            "type": "image/png"
+        },
+        {
+            "src": "./manifest/icon-384x384.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "./manifest/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
